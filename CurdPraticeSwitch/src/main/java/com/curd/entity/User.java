@@ -23,6 +23,9 @@ public class User implements UserDetails {
     private String email;
     private String password;
 
+    public User(long l, String mail, String number) {
+    }
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return List.of();
